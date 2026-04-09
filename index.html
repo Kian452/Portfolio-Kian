@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kian Gray | Portfolio</title>
+    <meta
+      name="description"
+      content="Bilingual portfolio of Kian Gray, informatics student focused on software development."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <nav class="nav container">
+        <a class="brand" href="#top">Kian Gray</a>
+        <div class="top-controls">
+          <button
+            id="lang-toggle"
+            class="lang-toggle"
+            type="button"
+            aria-label="Switch language"
+          >
+            EN
+          </button>
+          <button class="menu-toggle" aria-label="Menue oeffnen">Menue</button>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about" data-i18n="nav_about">Ueber mich</a></li>
+          <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+          <li><a href="#projects" data-i18n="nav_projects">Projekte</a></li>
+          <li><a href="#education" data-i18n="nav_education">Ausbildung</a></li>
+          <li><a href="#interests" data-i18n="nav_interests">Interessen</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content container hero-grid">
+        <div>
+          <p class="eyebrow" data-i18n="hero_eyebrow">Informatikschueler</p>
+          <h1 data-i18n="hero_title">
+            Ich entwickle moderne und benutzerfreundliche Softwareloesungen.
+          </h1>
+          <p class="lead" data-i18n="hero_lead">
+            Motiviert, strukturiert und technologiebegeistert - mit Fokus auf Python,
+            JavaScript und Webentwicklung.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#contact" data-i18n="hero_cta_contact"
+              >Kontakt aufnehmen</a
+            >
+            <a class="btn btn-ghost" href="#projects" data-i18n="hero_cta_projects"
+              >Projekte ansehen</a
+            >
+            <a
+              class="btn btn-ghost"
+              href="./assets/CV_Kian_Gray.pdf"
+              download
+              data-i18n="hero_cta_cv"
+              >CV herunterladen</a
+            >
+          </div>
+        </div>
+        <aside class="profile-card">
+          <div class="avatar-placeholder" aria-label="Profile placeholder">KG</div>
+          <h2>Kian Gray</h2>
+          <p data-i18n="profile_role">Informatikschueler | Aspiring Software Developer</p>
+          <a
+            class="btn btn-ghost"
+            href="https://github.com/Kian452"
+            target="_blank"
+            rel="noreferrer"
+            data-i18n="profile_github"
+            >GitHub Profil</a
+          >
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container" id="about">
+        <h2 data-i18n="about_title">Ueber mich</h2>
+        <p data-i18n="about_p1">
+          Ich bin ein motivierter Informatikschueler mit grossem Interesse an
+          Softwareentwicklung und modernen Technologien. Bereits jetzt konnte ich
+          eigenstaendig erste Projekte umsetzen und meine Faehigkeiten in
+          Programmiersprachen wie Python und JavaScript vertiefen.
+        </p>
+        <p data-i18n="about_p2">
+          Besonders zeichne ich mich durch strukturiertes Denken,
+          Problemloesungskompetenz und Teamfaehigkeit aus.
+        </p>
+      </section>
+
+      <section class="section container" id="skills">
+        <h2 data-i18n="skills_title">Skills & Technologien</h2>
+        <div class="skill-bars">
+          <div class="skill-item">
+            <div class="skill-head">
+              <span>Python</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill skill-python"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-head">
+              <span>JavaScript</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill skill-js"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-head">
+              <span>HTML + CSS</span>
+              <span>88%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill skill-htmlcss"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-head">
+              <span>MySQL</span>
+              <span>72%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill skill-mysql"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="projects">
+        <h2 data-i18n="projects_title">Projekte</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>MyTraderJournal</h3>
+            <p data-i18n="project_1_desc">
+              Ein Tool zum Dokumentieren der eigenen Trading Journey und zur
+              strukturierten Analyse von Trades.
+            </p>
+            <p class="stack">TypeScript</p>
+            <a href="https://github.com/Kian452/MyTraderJournal.git" target="_blank" rel="noreferrer"
+              >GitHub</a
+            >
+          </article>
+          <article class="project-card">
+            <h3>GuessTheWord</h3>
+            <p data-i18n="project_2_desc">
+              Ein interaktives Woerterspiel, bei dem das gesuchte Wort erraten
+              werden muss.
+            </p>
+            <p class="stack">HTML, CSS, JavaScript</p>
+            <a href="https://github.com/Kian452/GuessTheWord.git" target="_blank" rel="noreferrer"
+              >GitHub</a
+            >
+          </article>
+          <article class="project-card">
+            <h3>Wirtschaftskrise2008</h3>
+            <p data-i18n="project_3_desc">
+              Eine Informationswebsite zur globalen Wirtschaftskrise 2008 mit
+              strukturiert aufbereiteten Inhalten.
+            </p>
+            <p class="stack">HTML, CSS, JavaScript</p>
+            <a
+              href="https://github.com/Kian452/PRWR-2008-Wirtschaftskrise.git"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="education">
+        <h2 data-i18n="education_title">Ausbildung</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date" data-i18n="edu_date_1">seit 09/2024</span>
+            <div class="timeline-content">
+              <h3>EFZ + BM an der Informatikmittelschule</h3>
+              <p data-i18n="education_1">Seit September 2024</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">09/2023 - 07/2024</span>
+            <div class="timeline-content">
+              <h3>Sekundarschule A</h3>
+              <p>Niederhasli, Zuerich</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">09/2019 - 07/2023</span>
+            <div class="timeline-content">
+              <h3>Gymnasium Schillerstrasse</h3>
+              <p>Feldkirch, Oesterreich</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">09/2015 - 07/2019</span>
+            <div class="timeline-content">
+              <h3>Volksschule Lewis</h3>
+              <p>Feldkirch, Oesterreich</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="interests">
+        <h2 data-i18n="interests_title">Freizeit & Interessen</h2>
+        <div class="hobbies-grid">
+          <article class="hobby-card">
+            <img
+              src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1200&q=80"
+              alt="Hiking in the mountains"
+              loading="lazy"
+            />
+            <div class="hobby-content">
+              <h3 data-i18n="hobby_1_title">Wandern & Natur</h3>
+              <p data-i18n="hobby_1_desc">
+                Zeit in der Natur hilft mir, den Kopf freizubekommen und neue
+                Energie fuer Projekte zu sammeln.
+              </p>
+            </div>
+          </article>
+          <article class="hobby-card">
+            <img
+              src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=1200&q=80"
+              alt="Volleyball match"
+              loading="lazy"
+            />
+            <div class="hobby-content">
+              <h3 data-i18n="hobby_2_title">Volleyball & Teamgeist</h3>
+              <p data-i18n="hobby_2_desc">
+                Volleyball staerkt mein Teamwork und meine Kommunikation -
+                Eigenschaften, die ich auch im Coding einbringe.
+              </p>
+            </div>
+          </article>
+          <article class="hobby-card">
+            <img
+              src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1200&q=80"
+              alt="Cooking ingredients on table"
+              loading="lazy"
+            />
+            <div class="hobby-content">
+              <h3 data-i18n="hobby_3_title">Kochen</h3>
+              <p data-i18n="hobby_3_desc">
+                Beim Kochen probiere ich gerne neue Rezepte aus - kreativ,
+                strukturiert und mit Fokus aufs Ergebnis.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="contact">
+        <h2 data-i18n="contact_title">Kontakt</h2>
+        <div class="contact-card">
+          <p><strong>E-Mail:</strong> <a href="mailto:kiangray76@gmail.com">kiangray76@gmail.com</a></p>
+          <p><strong>Telefon:</strong> <a href="tel:+41782185208">+41 78 218 52 08</a></p>
+          <p><strong data-i18n="location_label">Standort:</strong> Steinmaur, Schweiz</p>
+          <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/Kian452" target="_blank" rel="noreferrer"
+              >github.com/Kian452</a
+            >
+          </p>
+          <p>
+            <a class="btn btn-primary cv-btn" href="./assets/CV_Kian_Gray.pdf" download data-i18n="contact_cv"
+              >CV herunterladen</a
+            >
+          </p>
+        </div>
+        <form
+          class="contact-form"
+          id="contact-form"
+          action="mailto:kiangray76@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <h3 data-i18n="form_title">Direkt eine E-Mail senden</h3>
+          <label for="name" data-i18n="form_name_label">Name</label>
+          <input id="name" name="name" type="text" required data-i18n-placeholder="form_name_placeholder" placeholder="Dein Name" />
+
+          <label for="email" data-i18n="form_email_label">E-Mail</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            data-i18n-placeholder="form_email_placeholder"
+            placeholder="deine.email@example.com"
+          />
+
+          <label for="subject" data-i18n="form_subject_label">Betreff</label>
+          <input
+            id="subject"
+            name="subject"
+            type="text"
+            required
+            data-i18n-placeholder="form_subject_placeholder"
+            placeholder="Betreff"
+          />
+
+          <label for="message" data-i18n="form_message_label">Nachricht</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            required
+            data-i18n-placeholder="form_message_placeholder"
+            placeholder="Deine Nachricht..."
+          ></textarea>
+
+          <button type="submit" class="btn btn-primary" data-i18n="form_submit">E-Mail vorbereiten</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> <span data-i18n="footer_rights">Kian Gray. Alle Rechte vorbehalten.</span></p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
