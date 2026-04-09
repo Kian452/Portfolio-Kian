@@ -9,26 +9,26 @@ const contactForm = document.querySelector("#contact-form");
 
 const translations = {
   de: {
-    nav_about: "Ueber mich",
+    nav_about: "Über mich",
     nav_skills: "Skills",
     nav_projects: "Projekte",
     nav_education: "Ausbildung",
     nav_interests: "Interessen",
     nav_contact: "Kontakt",
-    hero_eyebrow: "Informatikschueler",
+    hero_eyebrow: "Informatikschüler",
     hero_title: "Ich entwickle moderne und benutzerfreundliche Softwareloesungen.",
     hero_lead:
       "Motiviert, strukturiert und technologiebegeistert - mit Fokus auf Python, JavaScript und Webentwicklung.",
     hero_cta_contact: "Kontakt aufnehmen",
     hero_cta_projects: "Projekte ansehen",
     hero_cta_cv: "CV herunterladen",
-    profile_role: "Informatikschueler | Aspiring Software Developer",
+    profile_role: "Informatikschüler | Aspiring Software Developer",
     profile_github: "GitHub Profil",
-    about_title: "Ueber mich",
+    about_title: "Über mich",
     about_p1:
-      "Ich bin ein motivierter Informatikschueler mit grossem Interesse an Softwareentwicklung und modernen Technologien. Bereits jetzt konnte ich eigenstaendig erste Projekte umsetzen und meine Faehigkeiten in Programmiersprachen wie Python und JavaScript vertiefen.",
+      "Ich bin ein motivierter Informatikschüler mit grossem Interesse an Softwareentwicklung und modernen Technologien. Bereits jetzt konnte ich eigenständig erste Projekte umsetzen und meine Fähigkeiten in Programmiersprachen wie Python und JavaScript vertiefen.",
     about_p2:
-      "Besonders zeichne ich mich durch strukturiertes Denken, Problemloesungskompetenz und Teamfaehigkeit aus.",
+      "Besonders zeichne ich mich durch strukturiertes Denken, Problemlösungskompetenz und Teamfähigkeit aus.",
     skills_title: "Skills & Technologien",
     other_skills_title: "Weitere Skills",
     projects_title: "Projekte",
@@ -47,10 +47,10 @@ const translations = {
     interests_title: "Freizeit & Interessen",
     hobby_1_title: "Wandern & Natur",
     hobby_1_desc:
-      "Zeit in der Natur hilft mir, den Kopf freizubekommen und neue Energie fuer Projekte zu sammeln.",
+      "Zeit in der Natur hilft mir, den Kopf freizubekommen und neue Energie für Projekte zu sammeln.",
     hobby_2_title: "Volleyball & Teamgeist",
     hobby_2_desc:
-      "Volleyball staerkt mein Teamwork und meine Kommunikation - Eigenschaften, die ich auch im Coding einbringe.",
+      "Volleyball stärkt mein Teamwork und meine Kommunikation - Eigenschaften, die ich auch im Coding einbringe.",
     hobby_3_title: "Kochen",
     hobby_3_desc:
       "Beim Kochen probiere ich gerne neue Rezepte aus - kreativ, strukturiert und mit Fokus aufs Ergebnis.",
