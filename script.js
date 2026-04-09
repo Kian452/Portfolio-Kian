@@ -30,6 +30,7 @@ const translations = {
     about_p2:
       "Besonders zeichne ich mich durch strukturiertes Denken, Problemloesungskompetenz und Teamfaehigkeit aus.",
     skills_title: "Skills & Technologien",
+    other_skills_title: "Weitere Skills",
     projects_title: "Projekte",
     project_1_desc:
       "Ein Tool zum Dokumentieren der eigenen Trading Journey und zur strukturierten Analyse von Trades.",
@@ -91,6 +92,7 @@ const translations = {
     about_p2:
       "My strengths are structured thinking, problem-solving, and teamwork.",
     skills_title: "Skills & Technologies",
+    other_skills_title: "Other Skills",
     projects_title: "Projects",
     project_1_desc:
       "A tool to document your trading journey and analyze trades in a structured way.",
